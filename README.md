@@ -13,10 +13,24 @@ Primary.args = {
 };
 Primary.parameters = {
   desc: `
-# TEST
+# パネルの説明を記載できる
 
-- list
-- list
+## タイトル2
+
+**マークダウンで記述できます。**
+
+- リスト
+- リスト
+
+1. 番号リスト
+1. 番号リスト
+
+|表1|表2|
+| --- | --- |
+|1|2|
+
 `
 }
 ```
+
+![](docs/media/sample.png)
