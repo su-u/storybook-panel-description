@@ -1,17 +1,11 @@
 {
-  "name": "storybook-addon-kit",
+  "name": "storybook-panel-description",
   "version": "0.0.0",
-  "description": "everything you need to build a Storybook addon",
-  "keywords": [
-    "storybook-addons",
-    "style",
-    "test"
-  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/storybookjs/storybook-addon-kit"
+    "url": "https://github.com/su-u/storybook-panel-description.git"
   },
-  "author": "winkerVSbecks",
+  "author": "su-u",
   "license": "MIT",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -88,5 +82,9 @@
       "angular"
     ],
     "icon": "https://user-images.githubusercontent.com/321738/63501763-88dbf600-c4cc-11e9-96cd-94adadc2fd72.png"
+  },
+  "dependencies": {
+    "react-markdown": "^7.1.0",
+    "remark-gfm": "^3.0.0"
   }
 }

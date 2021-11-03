@@ -20,6 +20,9 @@ Primary.args = {
   primary: true,
   label: "Button",
 };
+Primary.parameters = {
+  desc: `# TEST`
+}
 
 export const Secondary = Template.bind({});
 Secondary.args = {
