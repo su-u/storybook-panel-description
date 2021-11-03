@@ -1,6 +1,6 @@
 {
   "name": "storybook-panel-description",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/su-u/storybook-panel-description.git"
@@ -83,6 +83,7 @@
     ]
   },
   "dependencies": {
+    "github-markdown-css": "^5.0.0",
     "react-markdown": "^7.1.0",
     "remark-gfm": "^3.0.0"
   }
