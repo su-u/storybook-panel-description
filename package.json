@@ -1,6 +1,6 @@
 {
   "name": "storybook-panel-description",
-  "version": "0.1.0",
+  "version": "1.0.3",
   "repository": {
     "type": "git",
     "url": "https://github.com/su-u/storybook-panel-description.git"
@@ -31,7 +31,8 @@
     "build-storybook": "build-storybook",
     "prerelease": "zx scripts/prepublish-checks.mjs",
     "release": "yarn build && auto shipit",
-    "eject-ts": "zx scripts/eject-typescript.mjs"
+    "eject-ts": "zx scripts/eject-typescript.mjs",
+    "publish": "yarn publish"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.1",
